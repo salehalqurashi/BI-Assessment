@@ -1,0 +1,13 @@
+PopulationPercentage = 
+DIVIDE(
+    SUM('Table1'[population]),
+    CALCULATE(SUM('Table1'[population]), ALL('Table1')))
+
+To calculate Population Percentage
+
+Area Percentage = 
+DIVIDE(
+    SUM('Table1'[areaSqKm]),
+    CALCULATE(SUM('Table1'[areaSqKm]), ALL('Table1')))
+
+To calculate Area Percentage
